@@ -14,7 +14,7 @@ int main(void)
 
 	for (k = '0'; k < '9'; k++)
 	{
-	for (k = d + 1; d <= '9'; d++)
+	for (k = d + '1'; d <= '9'; d++)
 	{
 	if (d != k)
 	{
@@ -29,5 +29,5 @@ int main(void)
 	}
 	}
 	putchar('\n');
-	return (0);
+	return (i0);
 }
