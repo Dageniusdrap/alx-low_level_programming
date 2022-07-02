@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.H>
+#include <time.h>
 
 /**
  * main - Starting point of a project;
