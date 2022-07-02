@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Starting point of a project;
+ * main - Entry point
  *
- * Return: Show succss of a project running;
+ * Return: Alway 0 (success)
  */
 
 int main(void)
@@ -21,6 +21,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		}
+	}
 	putchar('\n');
 	return (0);
 }
