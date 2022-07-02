@@ -16,11 +16,11 @@ int main(void)
 	{
 	putchar((k / 10) + '0');
 	putchar((k % 10) + '0');
-	if (k != 99)
-	{
-	putchar(',');
-	putchar(' ');
-	}
+		if (k != 99)
+		{
+		putchar(',');
+		putchar(' ');
+		}
 	putchar('\n');
 	return (0);
 }
