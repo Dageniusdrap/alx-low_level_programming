@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Prints all possible combinations of two two-digit numbers.
+ * main - Prints all possible combinations of two two-digit numbersi.
  *
  * Return: Always show program finished successfully.
  */
@@ -11,9 +11,9 @@ int main(void)
 {
 	int d, p;
 
-	for (d = 0; d < 99; d++)
+	for (d = 0; d <= 99; d++)
 	{
-	for (p = 0; p < 99; p++)
+	for (p = 0; p <= 99; p++)
 	{
 	if (d < p)
 	{
