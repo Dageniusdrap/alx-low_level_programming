@@ -12,7 +12,7 @@ int main(void)
 {
 	char revlow;
 
-	for (revlow = 'z'; revlow <= 'a'; revlow--)
+	for (revlow = 'z'; revlow >= 'a'; revlow--)
 	{
 	putchar(revlow);
 	}
