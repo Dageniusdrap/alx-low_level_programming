@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include "main.h"
 
 int main(void);
-{
-	_putchar(void);
+{	print_alphabet();
 	return (0);
 }
