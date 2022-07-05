@@ -1,12 +1,11 @@
+#include "main.h"
+
 /**
- * File: 1-alphabet.c
+ * main - Starting Point
  *
- * Auth: Brennan D Baraban
+ * Return: Alway 0 (success)
  */
 
-#include "holberton.h"
-
-/* Print_alphabet - Prints the alphabet in lowercase, followed by a new line.*/
 void print_alphabet(void)
 {
 	char a;
