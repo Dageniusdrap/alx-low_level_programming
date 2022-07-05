@@ -1,18 +1,19 @@
-#include "main.h"
-
 /**
- * main - Printing alphabets in lowercase
+ * File: 1-alphabet.c
  *
- * Return: Always 0.
+ * Auth: Brennan D Baraban
  */
 
+#include "holberton.h"
+
+/* Print_alphabet - Prints the alphabet in lowercase, followed by a new line.*/
 void print_alphabet(void)
 {
-	char i;
+	char a;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (a = 'a'; a <= 'z'; a++)
 	{
-	_putchar(i);
-	_putchar('\n');
+	_putchar(a);
 	}
-}	
+	_putchar('\n');
+}
