@@ -3,6 +3,6 @@
 
 int main(void);
 {
-	int_putchar(void);
+	int_putchar(char c);
 	return (0);
 }
