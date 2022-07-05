@@ -1,24 +1,22 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * main -  Starting 
+ * main - Starting Point
  *
  * Return: Always 0
  */
 
 void print_alphabet_x10(void)
 {
-	char d;
-	int p;
+	char p;
+	int d;
 
-	for (p = 0; p < 10; p++)
+	for (d = 0; d <= 10; d++)
 	{
-	for (d = 'a'; d <= 'z'; d++)
+	for (p = 'a'; p <= 'z'; p++)
 	{
-	_putchar(d);
-	}	
+	_putchar(p);
+	}
 	}
 	_putchar('\n');
-	return (0);
 }
