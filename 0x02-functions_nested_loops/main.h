@@ -2,6 +2,6 @@
 
 int main(void);
 {
-	int_putchar(char c);
+	_putchar(void);
 	return (0);
 }
