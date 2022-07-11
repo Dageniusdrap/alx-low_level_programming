@@ -13,9 +13,9 @@ char *_strcpy(char *dest, char *src)
 {
 	char *b = dest;
 
-	while (*src[-len])
+	while (*src)
 	{
 	*dest++ = *src++;
 	}
-	return (b);
+	return (b - 'H');
 }
