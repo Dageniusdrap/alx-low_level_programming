@@ -12,6 +12,7 @@
 char *_strcpy(char *dest, const char *src)
 {
 	int i = 0;
+
 	i = 0;
 
 	while (*(src + i) != '\0')
