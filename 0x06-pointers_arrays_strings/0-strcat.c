@@ -11,9 +11,9 @@
 
 char *strcat(char *dest, const char *src)
 {
-	int index = 0, len = 0;
+	int check = 0, len = 0;
 
-	while (dest[index++])
+	while (dest[check++] != '\0')
 	{
 	len++;
 	}
