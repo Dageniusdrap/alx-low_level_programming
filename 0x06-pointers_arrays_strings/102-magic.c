@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Start
+ *
+ * Return: Always 0
+ */
+
 int main(void)
 {
 	int n;
