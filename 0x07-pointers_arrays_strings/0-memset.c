@@ -15,7 +15,7 @@ char *_memset(char *s, char b, unsigned int n)
 	char len;
 	char *memory = s, value = b;
 
-	for (len = '0'; len < n; len++)
+	for (len = b; len < n; len++)
 	{
 	memory[len] = value;
 	}
