@@ -15,14 +15,16 @@ char *_strpbrk(char *s, char *accept)
 
 	while (*s)
 	{
-	for (len = 0; accept[len]; len++)
+	while (*accept)
 	{
-	if (*s == accept[len])
+	if (*accept == *s)
 	{
 	return (s);
 	}
-	s++;
+	accept++;
 	}
+	accept = start;
+	s++;
 	}
 	return (NULL);
 }
