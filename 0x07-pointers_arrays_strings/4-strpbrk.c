@@ -11,7 +11,7 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int len;
+	char *begin = accept;
 
 	while (*s)
 	{
@@ -23,7 +23,7 @@ char *_strpbrk(char *s, char *accept)
 	}
 	accept++;
 	}
-	accept = start;
+	accept = begin;
 	s++;
 	}
 	return (NULL);
