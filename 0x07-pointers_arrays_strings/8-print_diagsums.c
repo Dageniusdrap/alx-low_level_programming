@@ -10,7 +10,7 @@
 
 void print_diagsums(int *a, int size)
 {
-	int index, intger1 = 0, integer2 = 0;
+	int index, integer1 = 0, integer2 = 0;
 
 	for (index = 0; index < size; index++)
 	{
@@ -23,5 +23,5 @@ void print_diagsums(int *a, int size)
 	integer2 += a[index];
 	a -= size;
 	}
-	print("%d, %d\n", integer1, integer2);
+	printf("%d, %d\n", integer1, integer2);
 }
