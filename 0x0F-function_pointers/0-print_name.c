@@ -11,5 +11,9 @@
 
 void print_name(char *name, void (*f)(char *name))
 {
-	if (name && f);
+	if (name != '\0' && f != '\0')
+	{
+	return (name);
+	}
+	f(name);
 }
