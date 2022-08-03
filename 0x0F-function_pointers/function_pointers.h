@@ -1,17 +1,11 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
-
 #include <stdlib.h>
-
-
 
 /**
  * File: function_pointers.h
- *
- * AUth: Brennan D Baraban
- *
+ * AUth: DRADRIGA PATRICK
  * Desc: Header file containing prototypes for all functions
- *
  *       used in the 0x0E-function_pointers directory.
  */
 
