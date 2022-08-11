@@ -17,5 +17,5 @@ main:
    ret
 
 section .data
-   msg: db "Hello, Dradriga Patrick", 0
+   msg: db "Hello, Holberton", 0
    fmt: db "%s", 10, 0
