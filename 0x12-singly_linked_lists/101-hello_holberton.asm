@@ -1,4 +1,3 @@
-
 extern printf
 
 section .text
