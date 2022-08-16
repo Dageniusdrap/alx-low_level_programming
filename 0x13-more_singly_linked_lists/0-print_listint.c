@@ -11,13 +11,21 @@
 
 size_t print_listint(const listint_t *h)
 {
-	size_t nodes = 0;
+	unsigned int nodes = 0;
 
 	while (h)
 	{
-	nodes++;
-	printf("%d\n", h->n);
+	printf("[%u] ", h->len);
+	if (h->str == NULL)
+	{
+	printf("(nil)\n");
+	}
+	else
+	{
+	printf("%s\n", h->str);
+	}
 	h = h->next;
+	nodes++;
 	}
 	return (nodes);
 }
